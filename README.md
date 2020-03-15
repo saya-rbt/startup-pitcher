@@ -3,7 +3,7 @@ For when you need inspiration when starting a start-up.
 
 ## What it is
 
-It really is just a small random sentence generator based off of the words in `resources.json`, for the laughs.
+It really is just a small random sentence generator based off of the words in `resources.json`, for the laughs. You can find it running [here](https://sayabiws.github.io/startup-pitcher/).
 
 I did a little bit of CSS just because, which allowed me to get a little bit back into it because I didn't do any CSS in a huge while.
 
