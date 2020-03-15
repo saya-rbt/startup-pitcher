@@ -1,0 +1,59 @@
+/* And before anyone asks, no, I do not know CSS very well,
+   and no, I am not doing a dark mode */
+
+*
+{
+	margin:0px;
+	padding:0px;
+}
+
+body
+{
+	background-color:#C0C0C0;
+	display:flex;
+	height:100vh;
+}
+
+section
+{
+	margin:auto;
+	vertical-align:middle;
+	text-align:center;
+	width:100%;
+}
+
+header
+{
+	font-family: 'Roboto Slab', serif;
+    margin:1vh;
+    padding:1vh;
+}
+
+h1
+{
+    font-size:8vh;
+}
+
+h2
+{
+    font-size:4vh;
+}
+
+main
+{
+	margin:3vh;
+	font-size:5vh;
+	font-style:italic;
+}
+
+#pitch
+{
+	background-color:#FFFFFF;
+	width:100%;
+}
+
+footer
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.8em;
+}
