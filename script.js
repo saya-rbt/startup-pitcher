@@ -9,14 +9,10 @@ function get_resources()
 			return res.json()
 		})
 		.then(function(json){
-			// console.log(json)
 		  	resources = json
-		  	// console.log(resources)
 		  	generate_sentence(resources)
 	  	})
 }
-
-// console.log(resources)
 
 function generate_sentence(resources)
 {
