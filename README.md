@@ -7,6 +7,8 @@ It really is just a small random sentence generator based off of the words in `r
 
 I did a little bit of CSS just because, which allowed me to get a little bit back into it because I didn't do any CSS in a huge while.
 
+Also, it pulls the JSON resources every time you refresh the message, because I couldn't fine how to do it another way. A good side-effect to this is that you'll always have the latest up-to-date resources!
+
 Feel free to contribute if you want to add something! See [CONTRIBUTING.md](https://github.com/sayabiws/startup-pitcher/CONTRIBUTING.md).
 
 ## What it isn't
