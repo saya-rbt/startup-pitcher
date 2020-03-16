@@ -1,6 +1,6 @@
 // We need to get our JSON with all our data
 const url = './resources.json'
-let resources
+let remote_resources
 
 function get_resources()
 {
@@ -9,12 +9,12 @@ function get_resources()
 			return res.json()
 		})
 		.then(function(json){
-		  	resources = json
-		  	generate_sentence(resources)
-	  	})
+			remote_resources = json
+			generate_sentence(remote_resources)
+		})
 }
 
-function generate_sentence(resources)
+function generate_sentence(resources = remote_resources)
 {
 	var type = Math.random() < 0.8 ? "individual" : "industrial"
 	var subject = resources["subject"][type][Math.floor(Math.random() * resources["subject"][type].length)]
@@ -26,4 +26,4 @@ function generate_sentence(resources)
 
 document.onload = get_resources()
 
-document.getElementById("regenBtn").addEventListener("click", get_resources)
+document.getElementById("regenBtn").addEventListener("click", () => generate_sentence())
